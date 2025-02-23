@@ -1,0 +1,20 @@
+.rotate-animation {
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: rotate(2deg) translateX(0.5rem);
+  }
+
+  66% {
+    transform: rotate(-2deg) translateX(-0.5rem);
+  }
+
+  100% {
+    transform: rotate(0deg) translateX(0rem);
+  }
+}
