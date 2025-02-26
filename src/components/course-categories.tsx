@@ -53,8 +53,8 @@ const CATEGORIES_ITEM: { label: string; active: boolean }[] = [
 function CourseCategories() {
   return (
     <div className="grid grid-cols-9 gap-4">
-      <div className="col-span-3 text-4xl">Course Categories</div>
-      <div className="col-span-6">
+      <div className="col-span-9 lg:col-span-3 text-4xl">Course Categories</div>
+      <div className="col-span-9 lg:col-span-6">
         <div className="flex content-end flex-wrap">
           {CATEGORIES_ITEM.map((item, index) => (
             <CourseItem key={index} active={item.active}>

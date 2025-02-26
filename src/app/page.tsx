@@ -4,6 +4,7 @@ import CourseCategories from "@/components/course-categories";
 import HeroSection from "@/components/landing-intro";
 import NumberOverview from "@/components/number-overview";
 import ValueSection from "@/components/value-section";
+import VideoSection from "@/components/video-section";
 import LayoutContainer from "@/layouts/container";
 import Layout from "@/layouts/layout";
 
@@ -18,7 +19,7 @@ export default function Home() {
         <NumberOverview />
       </LayoutContainer>
 
-      <LayoutContainer className="bg-gradient-to-r from-red-200 via-purple-200 to-blue-200 p-10">
+      <LayoutContainer className="bg-gradient-to-r from-red-200 via-purple-200 to-blue-200 p-4 md:p-10">
         <ValueSection />
       </LayoutContainer>
 
@@ -26,8 +27,8 @@ export default function Home() {
         <CourseCategories />
       </LayoutContainer>
 
-      <LayoutContainer className="bg-gradient-to-r from-red-200 via-purple-200 to-blue-200 p-10">
-        <ValueSection />
+      <LayoutContainer className="bg-gradient-to-r from-red-200 via-purple-200 to-blue-200 p-4 md:p-10">
+        <VideoSection />
       </LayoutContainer>
     </Layout>
   );

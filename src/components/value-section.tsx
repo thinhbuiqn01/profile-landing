@@ -36,7 +36,7 @@ function ValueSection() {
         We add value to our student`s journey
       </h4>
 
-      <div className="grid grid-cols-3 gap-8 mt-12">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-8 mt-12">
         {ITEMS.map((item, index) => (
           <ValueSectionItem
             icon={item.icon}

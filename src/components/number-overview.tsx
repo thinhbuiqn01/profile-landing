@@ -24,11 +24,11 @@ const OVERVIEWS: OverView[] = [
 function NumberOverview() {
   return (
     <div className="grid grid-cols-9 gap-4">
-      <div className="col-span-3 text-4xl">
-        Our numbers tell <br /> more about us
+      <div className="lg:col-span-3 col-span-9 text-4xl">
+        Our numbers tell more about us
       </div>
       {OVERVIEWS.map((Item, index) => (
-        <div className="col-span-2" key={index}>
+        <div className="lg:col-span-2 col-span-3 mt-5 lg:mt-0 " key={index}>
           <NumberOverviewItem
             description={Item.description}
             label={Item.label}

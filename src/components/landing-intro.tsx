@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 
 export default function HeroSection() {
   return (
-    <section className="bg-gradient-to-r from-pink-400  via-purple-400 to-blue-400 text-white p-10 rounded-lg">
+    <section className="bg-gradient-to-r from-pink-400  via-purple-400 to-blue-400 text-white p-4 md:p-10 rounded-lg">
       <div className="grid grid-cols-2 gap-4">
         <div>
           <h1 className="w-[50%]:md text-4xl font-bold">
